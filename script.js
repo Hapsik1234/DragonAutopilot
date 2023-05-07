@@ -1,3 +1,3 @@
-function test() {
+window.test() = function() {
   alert("Hello World!");
 }
