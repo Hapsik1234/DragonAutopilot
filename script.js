@@ -1,3 +1,6 @@
-window.test = function() {
-  alert("Hello World!");
+function change() {
+	function backup() {}
+	backup = pitchDown;
+	pitchDown = pitchUp;
+	pitchUp = backup;	
 }
