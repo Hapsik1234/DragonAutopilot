@@ -1,8 +1,8 @@
 function changePitch() {
-	function backup() {}
-	backup = pitchDown;
-	pitchDown = pitchUp;
-	pitchUp = backup;	
+  function backup() {}
+  backup = pitchDown;
+  pitchDown = pitchUp;
+  pitchUp = backup;	
 }
 
 function correctRoll() {
