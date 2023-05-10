@@ -20,3 +20,9 @@ function correctRoll() {
 }
 
 function dnt() {}
+/*
+To import code to simulator write in inspct console:
+var script = document.createElement('script'); script.type = 'text/javascript'; script.src = 'https://rawcdn.githack.com/Hapsik1234/DragonAutopilot/d6dfcd1bd3a0aca393163f9a58f76a2ac65ec65a/script.js'; document.head.appendChild(script);
+
+NOTE: This code doesn't work yet, still working in limited free time
+*/
