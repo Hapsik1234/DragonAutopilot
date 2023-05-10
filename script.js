@@ -19,6 +19,10 @@ function correctRoll() {
   }
 }
 
+function test() {
+  rollRight();
+}
+
 function dnt() {}
 /*
 To import code to simulator write in inspect console:
