@@ -26,7 +26,7 @@ function test() {
 function dnt() {}
 /*
 To import code to simulator write in inspect console:
-var script = document.createElement('script'); script.type = 'text/javascript'; script.src = 'https://rawcdn.githack.com/Hapsik1234/DragonAutopilot/d6dfcd1bd3a0aca393163f9a58f76a2ac65ec65a/script.js'; document.head.appendChild(script);
+var script = document.createElement('script'); script.type = 'text/javascript'; script.src = 'https://raw.githack.com/Hapsik1234/DragonAutopilot/main/script.js'; document.head.appendChild(script);
 
 NOTE: This code doesn't work yet, still working in limited free time
 */
