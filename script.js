@@ -20,7 +20,9 @@ function correctRoll() {
 }
 
 function test() {
-  rollRight();
+  if (2+2==4) {
+    rollRight();
+  }
 }
 
 function dnt() {}
