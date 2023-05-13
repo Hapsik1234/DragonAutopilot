@@ -10,7 +10,7 @@ function correctRoll() {
   console.log(fixedRotationZ);
   if (fixedRotationZ>0) {
     console.log("Larger than zero");
-    Window.rollRight();
+    rollRight();
     while (fixedRotationZ>0) {
       console.log("Awaiting to complete rotation manouver " + fixedRotationZ.toString());
       dnt();
