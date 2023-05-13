@@ -15,7 +15,7 @@ function correctRoll() {
       console.log("Awaiting to complete rotation manouver " + fixedRotationZ.toString());
       dnt();
     }
-    rollLeft();
+    
   }
 }
 
