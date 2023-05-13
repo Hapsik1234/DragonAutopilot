@@ -23,6 +23,7 @@ function test() {
   if (2+2==4) {
     rollRight();
   }
+  console.log("Test");
 }
 
 function dnt() {}
