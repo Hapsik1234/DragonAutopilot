@@ -31,5 +31,5 @@ function dnt() {}
 To import code to simulator write in inspect console:
 var script = document.createElement('script'); script.type = 'text/javascript'; script.src = 'https://raw.githack.com/Hapsik1234/DragonAutopilot/main/script.js'; document.head.appendChild(script);
 
-NOTE: This code doesn't work yet, still working in limited free time
+NOTE: This code doesn't work yet, still working in limited free time. Made it public for testing.
 */
