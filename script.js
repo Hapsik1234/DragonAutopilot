@@ -6,7 +6,6 @@ function changePitch() {
 }
 
 function correctRoll() {
-  var num = 2;
   console.log(fixedRotationZ);
   if (fixedRotationZ>0) {
     console.log("Larger than zero");
