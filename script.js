@@ -11,7 +11,7 @@ function correctRoll() {
     console.log("Larger than zero");
     test2();
     while (fixedRotationZ>0) {
-      console.log(n + ": Awaiting to complete rotation manouver " + fixedRotationZ.toString());
+      console.log(" Awaiting to complete rotation manouver " + fixedRotationZ.toString());
       dnt();
       n++;
     }
