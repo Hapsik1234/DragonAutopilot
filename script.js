@@ -6,7 +6,7 @@ function changePitch() {
 }
 
 function correctRoll() {
-  var n = 0;
+  var n = 0;    //This is to not overload website
   console.log(fixedRotationZ);
   if (fixedRotationZ>0) {
     console.log("Larger than zero");
