@@ -13,7 +13,6 @@ function correctRoll() {
     while (fixedRotationZ>0) {
       console.log(" Awaiting to complete rotation manouver " + fixedRotationZ.toString());
       dnt();
-      n++;
     }
     
   }
