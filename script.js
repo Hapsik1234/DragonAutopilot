@@ -10,6 +10,7 @@ function correctRoll() {
   if (fixedRotationZ>0) {
     console.log("Larger than zero");
     test();
+    test2();
     rollRight();
     while (fixedRotationZ>0) {
       console.log("Awaiting to complete rotation manouver " + fixedRotationZ.toString());
@@ -23,6 +24,10 @@ function test() {
   if (2+2==4) {
     rollRight();
   }
+  console.log("Test");
+}
+
+function test2() {
   console.log("Test");
 }
 
