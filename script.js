@@ -6,11 +6,12 @@ function changePitch() {
 }
 
 function correctRoll() {
+  var n = 0;
   console.log(fixedRotationZ);
   if (fixedRotationZ>0) {
     console.log("Larger than zero");
     test2();
-    while (fixedRotationZ>0) {
+    while (fixedRotationZ>0 && n<1000) {
       console.log(" Awaiting to complete rotation manouver " + fixedRotationZ.toString());
       dnt();
     }
